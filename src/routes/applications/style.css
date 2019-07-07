@@ -1,0 +1,43 @@
+.card {
+    background: #fff;
+    min-height: 50px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.05);
+    position: relative;
+    transition: .5s;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card_header {
+    color: #424242;
+    padding: 0 0 10px 0;
+    position: relative;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.card_table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+.table thead tr th {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+}
